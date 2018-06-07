@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 96d1114fec82e894eaeb7e978f0899a6
+timeCreated: 1513102193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bookcase
+    100002: Box001
+    100004: Box002
+    100006: Box003
+    100008: Box004
+    100010: Box005
+    100012: Box0098
+    100014: Box255
+    100016: Box284
+    100018: Box285
+    100020: Box286
+    100022: Box287
+    100024: Box288
+    100026: Box289
+    100028: Box290
+    100030: Box291
+    100032: Box292
+    100034: Camera001
+    100036: Camera001.Target
+    100038: chair
+    100040: Cylinder001
+    100042: Cylinder002
+    100044: Cylinder003
+    100046: Cylinder004
+    100048: Cylinder005
+    100050: Direct001
+    100052: Direct001.Target
+    100054: door
+    100056: filing cabinet
+    100058: Floor Moulding
+    100060: Floor Moulding001
+    100062: lamp
+    100064: Line001
+    100066: Line002
+    100068: Line004
+    100070: Line005
+    100072: Line006
+    100074: Line007
+    100076: Line008
+    100078: Line009
+    100080: Line010
+    100082: Line011
+    100084: Line012
+    100086: Line013
+    100088: Line014
+    100090: Line014 1
+    100092: Line015
+    100094: Line016
+    100096: Lineaa
+    100098: Linebb
+    100100: Linedd
+    100102: Linedd001
+    100104: mr Sky Portal002
+    100106: Object
+    100108: Object001
+    100110: Object002
+    100112: Object003
+    100114: Object011
+    100116: Object012
+    100118: Object014
+    100120: Omni001
+    100122: Panneling Top
+    100124: Panneling Top002
+    100126: Panneling001
+    100128: Panneling002
+    100130: Plane001
+    100132: Plane007
+    100134: Plane008
+    100136: Plane009
+    100138: //RootNode
+    100140: Sphere001
+    100142: Sphere002
+    100144: Sphere003
+    100146: Sphere004
+    100148: Sphere005
+    100150: Sphere006
+    100152: teacup
+    100154: TPhotometricLight001
+    100156: TPhotometricLight001.Target
+    100158: window
+    400000: bookcase
+    400002: Box001
+    400004: Box002
+    400006: Box003
+    400008: Box004
+    400010: Box005
+    400012: Box0098
+    400014: Box255
+    400016: Box284
+    400018: Box285
+    400020: Box286
+    400022: Box287
+    400024: Box288
+    400026: Box289
+    400028: Box290
+    400030: Box291
+    400032: Box292
+    400034: Camera001
+    400036: Camera001.Target
+    400038: chair
+    400040: Cylinder001
+    400042: Cylinder002
+    400044: Cylinder003
+    400046: Cylinder004
+    400048: Cylinder005
+    400050: Direct001
+    400052: Direct001.Target
+    400054: door
+    400056: filing cabinet
+    400058: Floor Moulding
+    400060: Floor Moulding001
+    400062: lamp
+    400064: Line001
+    400066: Line002
+    400068: Line004
+    400070: Line005
+    400072: Line006
+    400074: Line007
+    400076: Line008
+    400078: Line009
+    400080: Line010
+    400082: Line011
+    400084: Line012
+    400086: Line013
+    400088: Line014
+    400090: Line014 1
+    400092: Line015
+    400094: Line016
+    400096: Lineaa
+    400098: Linebb
+    400100: Linedd
+    400102: Linedd001
+    400104: mr Sky Portal002
+    400106: Object
+    400108: Object001
+    400110: Object002
+    400112: Object003
+    400114: Object011
+    400116: Object012
+    400118: Object014
+    400120: Omni001
+    400122: Panneling Top
+    400124: Panneling Top002
+    400126: Panneling001
+    400128: Panneling002
+    400130: Plane001
+    400132: Plane007
+    400134: Plane008
+    400136: Plane009
+    400138: //RootNode
+    400140: Sphere001
+    400142: Sphere002
+    400144: Sphere003
+    400146: Sphere004
+    400148: Sphere005
+    400150: Sphere006
+    400152: teacup
+    400154: TPhotometricLight001
+    400156: TPhotometricLight001.Target
+    400158: window
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: Box0098
+    2300012: Box255
+    2300014: Box284
+    2300016: Box285
+    2300018: Box286
+    2300020: Box287
+    2300022: Box288
+    2300024: Box289
+    2300026: Box290
+    2300028: Box291
+    2300030: Box292
+    2300032: Cylinder001
+    2300034: Cylinder002
+    2300036: Cylinder003
+    2300038: Cylinder004
+    2300040: Cylinder005
+    2300042: Floor Moulding
+    2300044: Floor Moulding001
+    2300046: Line001
+    2300048: Line004
+    2300050: Line005
+    2300052: Line006
+    2300054: Line007
+    2300056: Line008
+    2300058: Line009
+    2300060: Line010
+    2300062: Line011
+    2300064: Line012
+    2300066: Line013
+    2300068: Line014
+    2300070: Line014 1
+    2300072: Line015
+    2300074: Line016
+    2300076: Lineaa
+    2300078: Linebb
+    2300080: Linedd
+    2300082: Linedd001
+    2300084: Object
+    2300086: Object001
+    2300088: Object011
+    2300090: Object012
+    2300092: Object014
+    2300094: Panneling Top
+    2300096: Panneling Top002
+    2300098: Panneling001
+    2300100: Panneling002
+    2300102: Plane001
+    2300104: Plane007
+    2300106: Plane008
+    2300108: Plane009
+    2300110: Sphere001
+    2300112: Sphere002
+    2300114: Sphere003
+    2300116: Sphere004
+    2300118: Sphere005
+    2300120: Sphere006
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: Box0098
+    3300012: Box255
+    3300014: Box284
+    3300016: Box285
+    3300018: Box286
+    3300020: Box287
+    3300022: Box288
+    3300024: Box289
+    3300026: Box290
+    3300028: Box291
+    3300030: Box292
+    3300032: Cylinder001
+    3300034: Cylinder002
+    3300036: Cylinder003
+    3300038: Cylinder004
+    3300040: Cylinder005
+    3300042: Floor Moulding
+    3300044: Floor Moulding001
+    3300046: Line001
+    3300048: Line004
+    3300050: Line005
+    3300052: Line006
+    3300054: Line007
+    3300056: Line008
+    3300058: Line009
+    3300060: Line010
+    3300062: Line011
+    3300064: Line012
+    3300066: Line013
+    3300068: Line014
+    3300070: Line014 1
+    3300072: Line015
+    3300074: Line016
+    3300076: Lineaa
+    3300078: Linebb
+    3300080: Linedd
+    3300082: Linedd001
+    3300084: Object
+    3300086: Object001
+    3300088: Object011
+    3300090: Object012
+    3300092: Object014
+    3300094: Panneling Top
+    3300096: Panneling Top002
+    3300098: Panneling001
+    3300100: Panneling002
+    3300102: Plane001
+    3300104: Plane007
+    3300106: Plane008
+    3300108: Plane009
+    3300110: Sphere001
+    3300112: Sphere002
+    3300114: Sphere003
+    3300116: Sphere004
+    3300118: Sphere005
+    3300120: Sphere006
+    4300000: Plane001
+    4300002: Box005
+    4300004: Object
+    4300006: Object001
+    4300008: Floor Moulding
+    4300010: Panneling Top
+    4300012: Floor Moulding001
+    4300014: Panneling001
+    4300016: Panneling002
+    4300018: Panneling Top002
+    4300020: Cylinder001
+    4300022: Sphere006
+    4300024: Sphere005
+    4300026: Sphere004
+    4300028: Sphere003
+    4300030: Sphere002
+    4300032: Sphere001
+    4300034: Box288
+    4300036: Box284
+    4300038: Box285
+    4300040: Box289
+    4300042: Box290
+    4300044: Box286
+    4300046: Box287
+    4300048: Box291
+    4300050: Box292
+    4300052: Box255
+    4300054: Line004
+    4300056: Box0098
+    4300058: Object011
+    4300060: Linebb
+    4300062: Lineaa
+    4300064: Linedd
+    4300066: Object012
+    4300068: Linedd001
+    4300070: Line012
+    4300072: Line013
+    4300074: Box002
+    4300076: Box003
+    4300078: Box004
+    4300080: Plane007
+    4300082: Plane008
+    4300084: Plane009
+    4300086: Box001
+    4300088: Object014
+    4300090: Line001
+    4300092: Cylinder002
+    4300094: Cylinder003
+    4300096: Cylinder004
+    4300098: Cylinder005
+    4300100: Line005
+    4300102: Line006
+    4300104: Line007
+    4300106: Line008
+    4300108: Line009
+    4300110: Line010
+    4300112: Line011
+    4300114: Line014
+    4300116: Line015
+    4300118: Line014
+    4300120: Line016
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

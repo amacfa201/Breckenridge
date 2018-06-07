@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bf92c99f2375ab24580ffea08fa98c66
+timeCreated: 1513188424
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: OldStyle 1
+  fontNames:
+  - OldStyle 1
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
