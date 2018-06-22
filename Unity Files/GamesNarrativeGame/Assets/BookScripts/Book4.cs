@@ -12,13 +12,15 @@ public class Book4 : MonoBehaviour
 	public Moving other;
 	public GameObject CBook5;
 	public GameObject Updater;
+    public bool bookOpening;
 
 
     void OnMouseDown()
     {
 
-        if (x % 2 == 0)
+        if (x % 2 == 0 && !bookOpening)
         {
+           
             anim.Play("Book5");
 			Updater.SetActive (false);
             StartCoroutine(False());
@@ -45,21 +47,33 @@ public class Book4 : MonoBehaviour
 
     IEnumerator False()
     {
-		
+        bookOpening = true;
         yield return new WaitForSeconds(1);
         x++;
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1.95f);
 		other.ShowMain2Camera();
 		Updater.SetActive (true);
+        yield return new WaitForSeconds(3f);
+        bookOpening = false;
+        //yield return null;
     }
     IEnumerator True()
     {
-        yield return new WaitForSeconds(1);
-        x++;
+      
+            x++;
+            yield return null;
+        
+       
     }
     void OnMouseOver()
     {
-        m_Renderer1.material.color = m_MouseOverColor1;
+
+        if (!bookOpening)
+        {
+            m_Renderer1.material.color = m_MouseOverColor1;
+        }
+      
+        
     }
 
     void OnMouseExit()
@@ -69,29 +83,34 @@ public class Book4 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (x >= 2)
-        {
-            x = 0;
-        }
-		if (Input.GetMouseButtonDown (0)) 
-		{
-			if (CBook5.active == true) 
-			{
-				x = 1;
-			}
-			else 
-			{
-				x = 0;
-			}
-			if (x % 2 == 1)
-			{
-				if (x % 2 == 1) 
-				{
-					anim.Play ("Book5Reverse");
-					StartCoroutine (True ());
+        
+            if (x >= 2)
+            {
+                x = 0;
+                print("IN HERE");
+            }
+            if (Input.GetMouseButtonDown(0)  && !bookOpening)
+            {
+           
+            if (CBook5.activeInHierarchy == true)
+                {
+                    x = 1;
+                }
+                else
+                {
+                    x = 0;
+                }
+                if (x % 2 == 1)
+                {
+                    if (x % 2 == 1)
+                    {
+                    
+                    anim.Play("Book5Reverse");
+                        StartCoroutine(True());
 
-				}
-			}
-		}
+                    }
+                }
+            }
+        
     }
 }
