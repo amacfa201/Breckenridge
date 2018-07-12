@@ -15,6 +15,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 cd7e39e51bc4cb92ec14af6610b35452 Assembly-CSharp.dll:.SarahFileScript
 a11e00b5fe8031e33b929133aff9dce6 Assembly-CSharp.dll:.Moving
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadSceneScript
 5ad11a2264f2bb5af16609fe5fe6d25e Assembly-CSharp.dll:.Drawer2Script
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -154,5 +155,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 cd7e39e51bc4cb92ec14af6610b35452 Assembly-CSharp.dll:.DarwinScript
 6f7a4fc8cb4450b7182b9bf6d89bb0e6 Assembly-CSharp.dll:.Drawer1Script
 e03f15a7e1982eba9182f2331ffc2570 Assembly-CSharp.dll:.JohnScript
-1ec101b4eee0c52cb31705fb2b2201ac Assembly-CSharp.dll:.SceneChange
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneChange
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DontDestroyOnLoad

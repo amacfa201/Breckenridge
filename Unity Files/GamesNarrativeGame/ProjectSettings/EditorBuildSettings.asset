@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/BookDemo.unity
+    path: Assets/Scenes/BookDemo.unity
     guid: f50727ce7007d904981baffeb34e6c46
   - enabled: 0
     path: 
     guid: 3fe11bc6281feee45a7778c687837b2b
   - enabled: 1
-    path: Assets/MenuScene.unity
+    path: Assets/Scenes/IntroScene.unity
     guid: 786fb87a3cff342499ecc0479d60aaff
   - enabled: 1
-    path: Assets/demo 2.unity
+    path: Assets/Scenes/MenuScene.unity
+    guid: 96cfde438a563824489f3b45dc7cc37c
+  - enabled: 1
+    path: Assets/Scenes/OptionsScene.unity
+    guid: ae2fe12f30ccccd478158d5810a40164
+  - enabled: 1
+    path: Assets/Scenes/demo 2.unity
     guid: ba3e62c5652d0054dbdb3ae99c569735
