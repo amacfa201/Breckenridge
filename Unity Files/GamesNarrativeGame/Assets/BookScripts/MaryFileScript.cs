@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaryFileScript : MonoBehaviour {
-
+public class MaryFileScript : MonoBehaviour 
+{
 	public Animator anim;
 	Color m_MouseOverColor1 = Color.red;
 	Color m_OriginalColor1;
 	MeshRenderer m_Renderer1;
 	public Moving other;
+
+
 
 	// Use this for initialization
 	void Start () 
@@ -30,8 +32,5 @@ public class MaryFileScript : MonoBehaviour {
 	void OnMouseExit()
 	{
 		m_Renderer1.material.color = m_OriginalColor1;
-	}
-	void Update () {
-
 	}
 }
