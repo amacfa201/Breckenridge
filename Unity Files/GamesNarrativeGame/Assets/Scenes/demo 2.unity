@@ -4658,6 +4658,55 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &471063634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 471063635}
+  - component: {fileID: 471063636}
+  m_Layer: 0
+  m_Name: AmbientSoundGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471063635
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 471063634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1852543619}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &471063636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 471063634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17b10d0314763e4dbd66dbf0754fc90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundNames:
+  - Infrasound
+  - WindHowling
+  - WindowsShaking
+  minChance: 1
+  maxChance: 5
+  randSoundNum: 0
+  one_in_x_infrasound_Chance: 1
+  isPlaying: 0
 --- !u!1001 &475875784
 Prefab:
   m_ObjectHideFlags: 0
@@ -13311,22 +13360,22 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: WindowsShaking
     clip: {fileID: 8300000, guid: 7c8613a8277303b4e8ceb99bd6c6ebb3, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 0.8
     loop: 0
     WhereShouldICodeThis: General Ambiance, random intervals.
     source: {fileID: 0}
   - name: WindHowling
     clip: {fileID: 8300000, guid: c5a0e86bf1945064993f2d25e30fce76, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 0.8
     loop: 0
     WhereShouldICodeThis: General Ambiance
     source: {fileID: 0}
   - name: Infrasound
     clip: {fileID: 8300000, guid: 296021c5711beee4397381c9592bbb92, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 0.8
     loop: 0
     WhereShouldICodeThis: After the discovery that the town is missing, on a loop
       to unsettle.
@@ -13338,6 +13387,7 @@ MonoBehaviour:
     loop: 0
     WhereShouldICodeThis: When books are clicked on/ buttons on main menu
     source: {fileID: 0}
+  ambientSound: 0
 --- !u!4 &1852543619
 Transform:
   m_ObjectHideFlags: 0
@@ -13347,7 +13397,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 471063635}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
