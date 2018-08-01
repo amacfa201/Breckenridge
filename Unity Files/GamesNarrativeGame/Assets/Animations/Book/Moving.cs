@@ -57,6 +57,18 @@ public class Moving : MonoBehaviour {
 		SarahFile.SetActive (false);
 		BkGrd.SetActive (false);
     }
+
+    public void ShowCamera(GameObject name)
+    {
+        Main.enabled = false;
+        Journals.enabled = true;
+        name.SetActive(true);
+        Button.SetActive(true);
+        Text.SetActive(true);
+        BkGrd.SetActive(true);
+    }
+
+
     public void ShowMain2Camera()
     {
         Main.enabled = false;

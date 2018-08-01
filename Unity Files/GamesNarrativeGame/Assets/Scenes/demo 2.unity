@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07035195, g: 0.12783197, b: 0.22697785, a: 1}
+  m_IndirectSpecularColor: {r: 0.07079219, g: 0.12782055, b: 0.22693136, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -365,6 +365,25 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f9ec2f5b43ac0204199acdb66395048b, type: 2}
   m_PrefabInternal: {fileID: 1685433750}
+--- !u!114 &51038517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51038516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21639a0ee9f4b844ea3d9c59dd23f2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  other: {fileID: 1579996787}
+  bookUIObject: {fileID: 1247533392}
+  Updater: {fileID: 750590116}
+  openingDelay: 2
+  OpenAnimName: Book5
+  CloseAnimName: Book5Reverse
+  isOpening: 0
 --- !u!95 &51038520
 Animator:
   serializedVersion: 3
@@ -396,23 +415,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 08e091500e68ded43b4abfb1b3f718d0, type: 3}
---- !u!114 &51038522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 51038516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c46a964d2062bf468f63d8a88c6c200, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  x: 0
-  other: {fileID: 1579996787}
-  CBook5: {fileID: 1247533392}
-  Updater: {fileID: 750590116}
-  bookOpening: 0
 --- !u!1 &54093905
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,7 +5154,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 471063634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c17b10d0314763e4dbd66dbf0754fc90, type: 3}
   m_Name: 
@@ -11483,6 +11485,7 @@ MonoBehaviour:
   test4: {fileID: 750590116}
   Button: {fileID: 1579996785}
   Counter: 0
+  anyBooksOpen: 0
 --- !u!1 &1444545446
 GameObject:
   m_ObjectHideFlags: 0
